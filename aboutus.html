@@ -31,7 +31,6 @@
 </head>
 <body>
 
-
     <nav class="navbar navbar-expand-lg navbar-light  " style="background-color: bisque;" >
         <div class="container-fluid">
           <a class="navbar-brand">
@@ -66,173 +65,76 @@
         </div>
       </nav>
 
-       
+
+
+
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   
-    <!--Showcase LANDING-->
-    <section class="bg-images text-white pt-5 text-center text-sm-start ">
-      <div class="container-fluid">
-        <div class="d-sm-flex align-items-center  text-sm-center text-md-start">
-          <div>
-            <h1 class="pb-2 main-heading  top-bottom" style="margin-top: 250px; font-family: 'Galada', cursive;">Stir and Brew the Fresh Aroma of Coffee</h1>        
-          </div>     
-        </div>
-      </div>
-    </section>
 
 
-      <!-- Product -->
-      <div class="text-center my-5">
-        <h2 style="font-family: 'Galada', cursive; font-size: 45px;" >We Serve</h2>
-      </div>
 
-      <div class="container">
+      <section >  
+       <div class="container text-center"> 
         <div class="row">
-           <div class="col-4 my-2">
-             <div class="card" >
-              <a href="">  <img src="coffee/coffee1.jpeg" class="img-fluid"  > </a>           
-             </div>
-           </div>
-  
-           <div class="col-4  my-2">
-            <div class="card" >
-              <a href=""> <img src="coffee/coffee2..jpeg" class="img-fluid"  > </a>           
-            </div>
+        
+          <div class="col-sm-6 col-md-5 text-right scrollimation fade-up d1">            
+            <h1 class="big-text">Contact Us</h1> 
           </div>
-  
-          <div class="col-4  my-2">
-            <div class="card" >
-            <a href=""><img src="coffee/coffee3.jpeg" class="img-fluid"> </a>            
-             </div>
-            </div>
-           </div>
-        </div>  
-     </div> 
-
-<br>
-<br>
-<br>
-<br>
-
- 
-<!-- Amenities -->
-<div class="text-center mb-3 " style="font-family: 'Roboto', sans-serif;">
-  <h2 style="font-family: 'Galada', cursive; font-size: 45px;">Amenities</h2>
-</div>
-
-
-     <div class="container">
-      <div class="row">
-         <div class="  col-4  mb-2">
-           <div class="text-center" >
-            <i class="fa-solid fa-person-biking fa-bounce fa-2xl" style="color: #000000; font-size: 35px;"></i>
-            <h4 class="mt-4" style="font-family: Arial, Helvetica, sans-serif; ">Delivery</h4>      
-           </div>
-         </div>
-
-         <div class="  col-4  mb-2 ">
-          <div class="text-center" >
-            <i class="fa-solid fa-bag-shopping fa-bounce fa-lg" style="color: #000000; font-size: 35px;"></i>
-           <h4 class="mt-4" style="font-family: Arial, Helvetica, sans-serif;">Take Away</h4>      
-          </div>
-        </div>
-
-        <div class=" col-4 mb-5 ">
-          <div class="text-center" >
-            <i class="fa-regular fa-credit-card fa-bounce fa-2xl" style="color: #000000; font-size: 35px;"></i>
-           <h4 class="mt-4" style="font-family: Arial, Helvetica, sans-serif; ">Payment </h4>      
-          </div>
-        </div>
-      </div>  
-   </div> 
-
-
-
-<section id="about" class="about-section-padding">
-  <div class="container">
+        
       
-          <div class="row">
-          <div class="col-lg-4 col-md-4 col-5 ">
-          <div class="about-img">
-          <img src="aboutUspt/aboutus.jpeg" class="img-fluid br mb-4 mt-5" style="height: 300px; width: 400px;">
-          </div>
-          </div>
-          <div class="col-lg-8 col-md-8 col-7  mt-md-5">
-          <div class="about-text">
 
-          <div class="mt-5">
-          <h2 style="font-family: 'Galada', cursive; font-size: 35px;">About Us</h2>
-        </div>  
-          <p class="just " style="width: 70%;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum corporis ipsum magni ab eaque harum consequatur nostrum praesentium. Voluptatem veniam perspiciatis Voluptatem veniam perspiciatis  </p>
-          </div>
-          </div>
-          </div>
-          </section>
-
-
-
-<!-- Why Us -->
-<div class="text-center mb-5 mt-5" style="font-family: 'Roboto', sans-serif;">
-  <h2  style="font-family: 'Galada', cursive; font-size: 45px;">Why Us</h2>
-</div>
-
-
-     <div class="container">
-      <div class="row">
-         <div class=" col-4">
-           <div class="text-center" >
-            <i class="fa-solid fa-bread-slice fa-2xl" style="color: #000000; font-size: 60px"  ></i>
-            <h4 class="mt-5">Delicious Food</h4>      
-           </div>
-         </div>
-
-         <div class=" col-4 my-2">
-          <div class="text-center" >
-            <i class="fa-solid fa-person fa-2xl" style="color: #000000; font-size: 60px"></i>
-           <h4 class="mt-5">Pleasant Ambience</h4>      
-          </div>
+          <form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="contact.php" method="post" novalidate>
+            
+            <div class="form-group">
+              <label class="control-label" for="contact-name">Name</label>
+              <div class="controls">
+              <input id="contact-name" name="contactName" placeholder="Your name" class="form-control requiredField" data-new-placeholder="Your name" type="text" data-error-empty="Please enter your name">
+              <i class="fa fa-user"></i>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="control-label" for="contact-mail">Email</label>
+              <div class=" controls">
+              <input id="contact-mail" name="email" placeholder="Your email" class="form-control requiredField" data-new-placeholder="Your email" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+              <i class="fa fa-envelope"></i>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="control-label" for="contact-message">Message</label>
+              <div class="controls">
+                <textarea id="contact-message" name="comments"  placeholder="Your message" class="form-control requiredField" data-new-placeholder="Your message" rows="6" data-error-empty="Please enter your message"></textarea>
+               
+              </div>
+            </div>
+            
+            <p><button name="submit" type="submit" class="btn btn-color2 btn-secondary mt-5" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>
+            <input type="hidden" name="submitted" id="submitted" value="true" />
+            
+          </form>
+          
         </div>
-
-        <div class=" col-4">
-          <div class="text-center" >
-            <i class="fa-solid fa-people-group fa-2xl" style="color: #000000; font-size: 60px;"></i>
-           <h4 class="mt-5 pb-5">Hospitality</h4>      
-          </div>
-        </div>
-      </div>  
-   </div> 
-
-
-
-
-
-   <div class="text-center mt-5">
-    <h2 style="font-family: 'Galada', cursive; font-size: 40px;" >Gallery</h2>
-  </div>
-
-  <div class="container">
-    <div class="row">
-       <div class="col-4 my-2">
-         <div class="card" >
-          <img src="gallary/gala1.jpeg" class="img-fluid"  >           
-         </div>
-       </div>
-
-       <div class="col-4  my-2">
-        <div class="card" >
-          <img src="gallary/gala2.jpeg" class="img-fluid"  >         
-        </div>
+        
       </div>
-
-      <div class="col-4  my-2">
-        <div class="card" >
-        <img src="gallary/gala3.jpeg" class="img-fluid">            
-         </div>
-        </div>
-       </div>
-    </div>  
- </div> 
- 
- 
+    
+    </section>
+    
+   
+  
+    <br>
+    <br>
+    <br>
+    <br>
+   
       
         <!-- footer -->
 
